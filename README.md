@@ -6,7 +6,7 @@ A stack is a data structure used to organize items into a collection. With the w
 
 2. How does the stack work?
 
-A stack in C++ programming follows an organization method known as LIFO ("Last In, First Out"). This means that whatever items are added to the stack last will be taken off of it first. Think of it like a competitive card game, where someone plays a card that does something, and someone plays a card in response to it. The last card to be played will "resolve," or go through its process, first. The stack is similar in that regard.
+A stack in C++ programming follows an organization method known as LIFO ("Last In, First Out"). This means that whatever items are added to the stack last will be taken off of it first. Think of it like a competitive card game, where someone plays a card that does something, and someone plays a card in response to it. The last card to be played will "resolve," or go through its process(es), first. The stack is similar in that regard.
 
 When putting items onto a stack, you would "push" it onto the top, placing it above everything else (if anything) in the stack. Once the object on the top of the stack has served its purpose, it is then "popped" - or removed from the top of the stack - to make way for the item below it. This item becomes the new "top." 
 
