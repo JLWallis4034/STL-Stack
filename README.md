@@ -21,5 +21,7 @@ The stack is very useful as a data structure. One example of where it is used is
 Further reading on the implementation of stacks can be done by following the links below, which were used to aid in the creation of the Visual Studio project.
 
 Works Cited:
+
 http://www.cplusplus.com/reference/stack/stack/ - This page contains all the member functions outlined in the Visual Studio project as well as some other ones that were not included.
+
 https://www.techiedelight.com/stack-implementation-in-cpp/ - This page contains a well-made implementation of a stack in C++, going as far as to print every change done to the stack through the life of the program.
