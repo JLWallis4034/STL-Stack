@@ -8,13 +8,6 @@ A stack is a data structure used to organize items into a collection. With the w
 
 A stack in C++ programming follows an organization method known as LIFO ("Last In, First Out"). This means that whatever items are added to the stack last will be taken off of it first. Think of it like a competitive card game, where someone plays a card that does something, and someone plays a card in response to stop it. The last card to be played will "resolve," or go through its process, first. The stack is similar in that regard.
 When putting items onto a stack, you would "push" it onto the top, placing it above everything else (if anything) in the stack. Once the object on the top of the stack has served its purpose, it is then "popped" - or removed from the top of the stack - to make way for the item below it. This item becomes the new "top." 
-                                        __________
- __________                            |____5_____|<---Top                    __________
-|____4_____|<---Top                    |____4_____|                          |____4_____|<---Top                     __________
-|____3_____|     ----> PUSH(5) ---->   |____3_____|     ----> POP() ---->    |____3_____|      ----> POP() ---->    |____3_____|<---Top
-|____2_____|                           |____2_____|                          |____2_____|                           |____2_____|
-|____1_____|                           |____1_____|                          |____1_____|                           |____1_____|
-
 Apart from pushing and popping, the stack can also be read to determine its size and whether or not it is empty or full. This relies on the value of a variable known as "top," which is set to -1 upon a stack's creation (when it is empty). "Top" is capable of reaching a value of 1 less than the max stack size, denoting the stack as "full." The size of the stack can be determined by adding 1 to the value of "top."
 
 3. What makes the stack useful?
